@@ -132,6 +132,7 @@ RMySQLFields* RS_MySQL_createDataMappings(SEXP rsHandle) {
       case FIELD_TYPE_DATE:
       case FIELD_TYPE_TIME:
       case FIELD_TYPE_DATETIME:
+      case FIELD_TYPE_TIMESTAMP:        
       case FIELD_TYPE_YEAR:
       case FIELD_TYPE_NEWDATE:
         flds->Sclass[j] = STRSXP;
